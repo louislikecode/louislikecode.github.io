@@ -1,18 +1,27 @@
-title: "Niklas Buschmann"
-author: "Niklas Buschmann"
+title: "Louis LIAO"
+author: "LIAO BI GANG"
+description: "Hong KONG Polyuthechnich University"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
-mathjax: true
-show_excerpts: false
-show_frame: true
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_social: true  # 修正拼写错误
+mathjax: true      # 启用 MathJax 数学公式渲染
+show_excerpts: true  # 关闭首页显示文章摘要功能
+show_frame: true     # 显示页面边框
 
 navigation:
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/"}
-  - {title: Feed, icon: rss, url: "/feed.xml"}
+  - {file: "index.md", icon: home, title: "Home"}
 
-remote_theme: niklasbuschmann/contrast
+external:  
+  - {title: Mail, icon: envelope, url: "mailto:albertolikebio-01@outlook.com"}
+  - {title: Github, icon: github, url: "https://github.com/louislikecode/"}
+  - {title: Instagram, icon: instagram, url: "/ https://www.instagram.com/mdgang6701?igsh=MTJwd3lqcXdobW94ZQ%3D%3D&utm_source=qr"}
+
+
 
 plugins:
  - jekyll-feed
