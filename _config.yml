@@ -19,8 +19,7 @@ navigation:
 external:  
   - {title: Mail, icon: envelope, url: "mailto:albertolikebio-01@outlook.com"}
   - {title: Github, icon: github, url: "https://github.com/louislikecode/"}
-  - {title: Instagram, icon: instagram, url: "/ https://www.instagram.com/mdgang6701?igsh=MTJwd3lqcXdobW94ZQ%3D%3D&utm_source=qr"}
-
+  - {title: "RSS", icon: rss, url: "/feed.xml"}
 
 
 plugins:
