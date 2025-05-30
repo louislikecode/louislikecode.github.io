@@ -14,7 +14,7 @@ show_excerpts: true  # 关闭首页显示文章摘要功能
 show_frame: true     # 显示页面边框
 
 navigation:
-  - {file: "index.md", icon: home, title: "Home"}
+  - {file: "index.html", icon: home, title: "Home"}
 
 external:  
   - {title: Mail, icon: envelope, url: "mailto:albertolikebio-01@outlook.com"}
