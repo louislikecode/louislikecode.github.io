@@ -1,26 +1,30 @@
-title: "Louis LIAO"
-author: "LIAO BI GANG"
-description: "Hong Kong Polythechnic University"
+title: "Kathryn Schuler"
+author: "Katie Schuler"
+description: "University of Pennsylvania"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
 # Layout
+show_social: true          # show site description and social links in the footer
+show_excerpts: false       # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
 
-show_social: true  # 修正拼写错误
-mathjax: true      # 启用 MathJax 数学公式渲染
-show_excerpts: true  # 关闭首页显示文章摘要功能
-show_frame: true     # 显示页面边框
-
+# Menu
 navigation:
-  - {file: "index.html", title: "Home", icon: home, }
+  - {file: "index.html", title: "Home Change", icon: home}
+  - {file: "README.md", title: "About me", icon: address-card}
 
-external:  
-  - {title: Mail, icon: envelope, url: "mailto:albertolikebio-01@outlook.com"}
-  - {title: Github, icon: github, url: "https://github.com/louislikecode/"}
-  - {title: "RSS", icon: rss, url: "/feed.xml"}
+external:                   # see http://fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:kschuler@sas.upenn.edu"}
+  - {title: Github, icon: github, url: "https://github.com/kschuler"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/kathrynschuler"}
 
+comments:
+#  disqus_shortname: ""     # see https://disqus.com/
+#  isso_domain: ""          # see https://posativ.org/isso/
 
 plugins:
- - jekyll-feed
+  - jekyll-feed
