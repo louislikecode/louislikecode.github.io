@@ -1,6 +1,6 @@
 ---
 layout: default
-tittle: "Blog"
+tittle: "Gallry"
 ---
 
 {% if site.show_excerpts %}
